@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual de Arte</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 15px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .product {
+            border: 1px solid #ccc;
+            background: #fff;
+            margin: 15px;
+            padding: 15px;
+            float: left;
+            width: calc(33.333% - 30px);
+        }
+        .product img {
+            max-width: 100%;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tienda Virtual de Arte</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<div class="container" id="productos">
+    <h2>Productos Destacados</h2>
+
+    <div class="product">
+        <img src="arte1.jpg" alt="Obra de Arte 1">
+        <h3>Obra de Arte 1</h3>
+        <p>Descripción breve de la obra de arte.</p>
+        <p>Precio: $100</p>
+        <button>Añadir al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="arte2.jpg" alt="Obra de Arte 2">
+        <h3>Obra de Arte 2</h3>
+        <p>Descripción breve de la obra de arte.</p>
+        <p>Precio: $150</p>
+        <button>Añadir al Carrito</button>
+    </div>
+
+    <div class="product">
+        <img src="arte3.jpg" alt="Obra de Arte 3">
+        <h3>Obra de Arte 3</h3>
+        <p>Descripción breve de la obra de arte.</p>
+        <p>Precio: $200</p>
+        <button>Añadir al Carrito</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tienda Virtual de Arte. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
